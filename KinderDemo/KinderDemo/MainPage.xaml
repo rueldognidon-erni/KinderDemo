@@ -3,6 +3,10 @@
     <ContentPage.BindingContext>
         <local:MainViewModel />
     </ContentPage.BindingContext>
-    <Label HorizontalOptions="Center" Text="{Binding MainText}" VerticalOptions="Center" />
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Label HorizontalOptions="Center" Text="{Binding MainText}" VerticalOptions="Center" />
+        <Label HorizontalOptions="Center" Text="CI/CD from VSTS" />
+    </StackLayout>
 
 </ContentPage>
