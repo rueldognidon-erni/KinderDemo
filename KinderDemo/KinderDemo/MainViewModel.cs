@@ -12,7 +12,7 @@ namespace KinderDemo
 
         public MainViewModel()
         {
-            MainText = "Kinder Demmo";
+            MainText = "Kinder Demo";
         }
 
         private string _mainText;
