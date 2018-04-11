@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace KinderDemo.Test
 {
     [TestClass]
-    public class FistUnitTest
+    public class FirstUnitTest
     {
         [TestMethod]
         public void FirstTestMethod()
